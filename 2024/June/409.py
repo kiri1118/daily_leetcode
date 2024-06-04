@@ -1,7 +1,7 @@
 # 6/4/2024
 # https://leetcode.com/problems/longest-palindrome/
 # 409 - Longest Palindrome
-# Simple loop over the string, could probably make it more efficient in terms of space.
+# Simple loop over the string, O(1) because there's only 26 * 2 different characters we can get in the dict.
 # Time: O(n), Space: O(1)
 class Solution:
     def longestPalindrome(self, s: str) -> int:
