@@ -3,7 +3,7 @@
 # 523 - Continuous Subarray Sum
 # Make use of the fact that subarray's sum can be calculated by subtracting prev sum from curr sum.
 # By that I mean, take the array [a, b, c, d] for example, sum([c, d]) can be calculated by sum([a, b, c, d]) - sum([a, b]).
-# Time: O(n), Space: O(n)
+# Time: O(n), Space: O(k)
 from typing import List
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
